@@ -119,3 +119,73 @@ li
 {
     margin-top: 20px;
 }
+.contact-us
+{
+    margin-top: 50px;
+    margin-left: 225px;
+    margin-bottom: 70px;
+    margin-right: 225px;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+}
+.form input
+{
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+::placeholder
+{
+   padding: 10px;
+}
+.contact   
+{
+    margin-bottom: 15px;
+}
+.info1
+{
+    margin-top: 25px;
+}
+.info2
+{
+    margin-top: 25px;
+}
+.info3
+{
+    margin-top: 25px;
+}
+.btn
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+.btn:hover
+{
+    background-color: black;
+    color: wheat;
+}
+
+footer
+{
+    background-color: lightgray;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+footer p
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
