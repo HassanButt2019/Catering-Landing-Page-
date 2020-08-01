@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body,html
+{
+    height: 100%;
+}
+a
+{
+   text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+.main-menu
+{
+    display: grid;
+    grid-template-columns: 1200px 300px;
+    background-color: #F1F1F1;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+   
+}
+.logo
+{
+    justify-content: center;
+    align-self: center;
+    align-items: flex-start;
+    margin: 20px;
+
+
+}
+.menu
+{
+    display: flex;
+    width: 500px;
+    
+   
+}
+.menu li
+{
+    padding: 20px;
+    align-items: flex-end;
+}
+.back
+{
+    background-image:url("../images/img1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content1
+{
+    display: flex;
+    justify-content: center;
+}
+.left
+{
+    margin-top: 30px;
+    width: 35%;
+}
+.right
+{
+    margin-top: 30px;
+    width: 35%;
+    margin-left: 20px;
+}
+.about
+{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.date
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.information
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.information2
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(104, 100, 100);
+}
+
+.hrline
+{
+    padding-top: 30px;
+    padding-right: 225px;
+    padding-bottom: 30px;
+    padding-left: 225px;
+}
+.ourmenu
+{
+    justify-content: center;
+    text-align: center;
+}
+.item
+{
+    margin-top: 50px;
+}
+.item-info
+{
+    margin-top: 20px;
+}
