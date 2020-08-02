@@ -42,8 +42,6 @@ li
 {
     display: flex;
     width: 500px;
-    
-   
 }
 .menu li
 {
@@ -53,15 +51,20 @@ li
 .back
 {
     background-image:url("../images/img1.jpg");
-    height: 100%;
-    background-position: center;
+    min-height: 100%;
+    min-width: 1024px;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .content1
 {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    flex-wrap: wrap;
 }
 .left
 {
@@ -105,6 +108,20 @@ li
     padding-right: 225px;
     padding-bottom: 30px;
     padding-left: 225px;
+}
+.main-menu .burger span
+{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: black;
+
+}
+.burger
+{
+    position: absolute;
+    display: none;
 }
 .ourmenu
 {
@@ -187,5 +204,91 @@ footer p
     margin-top: 10px;
 }
 
+@media screen and (max-width: 1528px) {
+    
+    .main-menu
+    {
+        grid-template-columns: 1150px 200px;
+    }
+  }
 
 
+  
+@media screen and (max-width: 1461px) {
+    
+    .main-menu
+    {
+        grid-template-columns: 1100px 190px;
+    }
+  }
+    
+@media screen and (max-width: 1422px) {
+    
+    .main-menu
+    {
+        grid-template-columns: 1050px 180px;
+    }
+  }
+  @media screen and (max-width: 1371px) {
+    
+    .main-menu
+    {
+        grid-template-columns: 950px 160px;
+    }
+  }
+  @media screen and (max-width: 1271px) {
+      body
+      {
+          font-size: 1em;
+      }
+    
+    .main-menu
+    {
+        grid-template-columns: 850px 150px;
+    }
+    .content1 .left img
+    {
+        border-radius: 300px;
+    }
+    .content1 .right
+    {
+        border-radius: 350px;
+    }
+  } 
+  @media screen and (max-width: 1178px) {
+    
+    .main-menu
+    {
+        grid-template-columns: 750px 130px;
+    }
+  } 
+  @media screen and (max-width: 1076px) {
+    
+    .main-menu
+    {
+        grid-template-columns: 600px 120px;
+    }
+  } 
+  @media screen and (max-width: 927px) {
+    
+    .main-menu
+    {
+        grid-template-columns: 550px 110px;
+    }
+  }
+  @media screen and (max-width: 829px) {
+    
+    .navbar
+    {
+        display: none;
+    }
+    .burger
+    {
+        display: block;
+        right: 20px;
+        top: 20px;
+    }
+  }
+
+
+  
