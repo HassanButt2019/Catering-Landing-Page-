@@ -160,15 +160,22 @@ li
 }
 .contact-us
 {
-    margin-top: 50px;
-    margin-left: 225px;
-    margin-bottom: 70px;
-    margin-right: 225px;
+    min-width: 72%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.contact
+{
+    text-align: center;
 }
 .form
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 .form input
 {
@@ -176,9 +183,11 @@ li
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 12px;
+    
     border-top: none;
     border-left: none;
     border-right: none;
+    width: 50%;
 
 }
 ::placeholder
