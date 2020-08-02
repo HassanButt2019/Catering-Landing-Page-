@@ -19,7 +19,7 @@ li
 .main-menu
 {
     display: grid;
-    grid-template-columns: 1200px 300px;
+    grid-template-columns: 1200px 400px;
     background-color: #F1F1F1;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -56,6 +56,7 @@ li
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .content1
 {
@@ -68,13 +69,35 @@ li
 .left
 {
     margin-top: 30px;
-    width: 35%;
+    min-width: 35%;
+    width: auto;
 }
 .right
 {
     margin-top: 30px;
-    width: 35%;
+    min-width: 35%;
+    max-width: auto;
     margin-left: 20px;
+}
+.content2
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    flex-wrap: wrap-reverse;
+}
+.left1
+{
+    margin-top: 30px;
+    min-width: 35%;
+    max-width: auto;
+    margin-left: 20px;
+}
+.right1
+{
+    margin-top: 30px;
+    width: 35%;
 }
 .about
 {
@@ -207,7 +230,7 @@ footer p
     
     .main-menu
     {
-        grid-template-columns: 1150px 200px;
+        grid-template-columns: 1150px 390px;
     }
   }
 
@@ -217,7 +240,7 @@ footer p
     
     .main-menu
     {
-        grid-template-columns: 1100px 190px;
+        grid-template-columns: 1100px 360px;
     }
   }
     
@@ -225,14 +248,14 @@ footer p
     
     .main-menu
     {
-        grid-template-columns: 1050px 180px;
+        grid-template-columns: 1050px 340px;
     }
   }
   @media screen and (max-width: 1371px) {
     
     .main-menu
     {
-        grid-template-columns: 950px 160px;
+        grid-template-columns: 950px 320px;
     }
   }
   @media screen and (max-width: 1271px) {
@@ -243,36 +266,42 @@ footer p
     
     .main-menu
     {
-        grid-template-columns: 850px 150px;
+        grid-template-columns: 850px 310px;
     }
     .content1 .left img
     {
-        border-radius: 300px;
+        border-radius: 600px;
+        height: 100%;
     }
-    .content1 .right
+    .content2 .right1 img
     {
-        border-radius: 350px;
+        border-radius: 600px;
+        height: 100%;
     }
+
+    
   } 
   @media screen and (max-width: 1178px) {
     
     .main-menu
     {
-        grid-template-columns: 750px 130px;
+        grid-template-columns: 750px 330px;
+        
     }
   } 
   @media screen and (max-width: 1076px) {
     
     .main-menu
     {
-        grid-template-columns: 600px 120px;
+        grid-template-columns: 600px 320px;
+        
     }
   } 
   @media screen and (max-width: 927px) {
     
     .main-menu
     {
-        grid-template-columns: 550px 110px;
+        grid-template-columns: 520px 310px;
     }
   }
   @media screen and (max-width: 829px) {
