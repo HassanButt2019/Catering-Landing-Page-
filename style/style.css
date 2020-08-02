@@ -1,6 +1,7 @@
 *
 {
     margin: 0;
+    
     padding: 0;
 
 }
@@ -70,7 +71,6 @@ li
 {
     margin-top: 30px;
     min-width: 35%;
-    width: auto;
 }
 .right
 {
@@ -85,7 +85,7 @@ li
     justify-content: center;
     margin: 0 auto;
     width: 90%;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 .left1
 {
@@ -127,9 +127,10 @@ li
 .hrline
 {
     padding-top: 30px;
-    padding-right: 225px;
+    padding-right: auto;
     padding-bottom: 30px;
-    padding-left: 225px;
+    padding-left: auto;
+    width: auto;
 }
 .main-menu .burger span
 {
@@ -279,13 +280,15 @@ footer p
     }
     .content1 .left img
     {
-        border-radius: 600px;
-        height: 100%;
+        border-radius: 150px;
+        height: 300px;
+        width: 100%;
     }
     .content2 .right1 img
     {
-        border-radius: 600px;
-        height: 100%;
+        border-radius: 150px;
+        height: 300px;
+        width: 100%;
     }
 
     
