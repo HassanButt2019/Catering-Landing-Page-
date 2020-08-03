@@ -90,6 +90,10 @@ li
     background-size: cover;
     background-attachment: fixed;
 }
+.back:hover
+{
+    filter: opacity(0.7);
+}
 .content1
 {
     display: flex;
@@ -102,6 +106,17 @@ li
 {
     margin-top: 30px;
     min-width: 35%;
+}
+.left img
+{
+    transition: 0.5s ease;
+}
+.left img:hover
+{
+    width: 450px;
+    border-radius: 40px;
+    filter: invert(0.1);
+
 }
 .right
 {
@@ -129,6 +144,16 @@ li
 {
     margin-top: 30px;
     width: 35%;
+}
+.right1 img
+{
+    transition: 0.5s ease;
+}
+.right1 img:hover
+{
+    width: 450px;
+    border-radius: 40px;
+    filter: invert(0.1);
 }
 .about
 {
@@ -215,12 +240,15 @@ li
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 12px;
-    
     border-top: none;
     border-left: none;
     border-right: none;
     width: 50%;
-
+    transition: width 0.4s ease-in-out;
+}
+.form input:focus
+{
+    width: 70%;
 }
 ::placeholder
 {
